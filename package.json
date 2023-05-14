@@ -1,0 +1,23 @@
+{
+  "name": "deployment",
+  "version": "1.0.0",
+  "description": "Test vercel deployments",
+  "main": "server.js",
+  "engines": {
+    "node": "18.16.0"
+  },
+  "scripts": {
+    "test": "echo \"test\"",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "vercel"
+  ],
+  "author": "Andres Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
